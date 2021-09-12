@@ -6,4 +6,5 @@ def print_rangoli(size):
     for i in items:
         temp = data[-(i+1):]
         row = temp[::-1]+temp[1:]
+        
         print("-".join(row).center(n*4-3, "-"))
