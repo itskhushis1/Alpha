@@ -1,4 +1,5 @@
 def print_rangoli(size):
+    
     alpha = "abcdefghijklmnopqrstuvwxyz"
     data = [alpha[i] for i in range(n)]
     items = list(range(n))
